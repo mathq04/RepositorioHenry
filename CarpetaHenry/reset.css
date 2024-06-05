@@ -1,0 +1,73 @@
+/* Reset styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Makes the box model more predictable */
+}
+
+* {
+  margin: 0; /* Reset default margins */
+  padding: 0; /* Reset default padding */
+}
+
+/* Typography tweaks */
+body {
+  line-height: 1.5; /* Improves readability */
+  font-family: sans-serif; /* Set a default font family */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block; /* Ensures consistent display of these elements */
+  max-width: 100%; /* Prevents images from overflowing their container */
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Inherits font properties from parent elements */
+}
+
+/* Links */
+a {
+  color: inherit; /* Inherits default text color */
+  text-decoration: none; /* Removes default underline */
+}
+  a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+  }
+
+/* Remove built-in form validation styles */
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+  outline: 0; /* Removes default outline */
+}
+
+/* Address potential text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; /* Ensures text doesn't overflow single line containers */
+}
+
+/* Accessibility */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer; /* Indicates clickable elements visually */
+}
+
+/* Adjust for specific needs */
+/* Here you can add or remove rules based on your project's requirements */
